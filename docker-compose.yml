@@ -12,7 +12,7 @@ services:
     volumes:
       - node-red-data:/data
     env_file:
-      - .envrc
+      - .env
 
 volumes:
   node-red-data:
