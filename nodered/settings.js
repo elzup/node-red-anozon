@@ -407,6 +407,7 @@ module.exports = {
    */
   functionGlobalContext: {
     // os:require('os'),
+    baysejs: require("baysejs"),
   },
 
   /** The maximum number of messages nodes will buffer internally as part of their
